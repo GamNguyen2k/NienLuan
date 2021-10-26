@@ -132,7 +132,7 @@ html{
 	height:auto;
 }
 .content_left{
-	width:28%;
+	width:22%;
 	height:auto;
 	float:left;
 }
@@ -186,14 +186,14 @@ html{
 	
 }
 .tieude{
-	width:auto;
-	height:40px;
-	background:#333333;
-	font-size:20px;
-	text-align:center;
-	padding:5px;
-	color:#fff;
-	line-height:40px;
+	width: auto;
+    height: 40px;
+    background: #333333;
+    font-size: 22px;
+    text-align: center;
+    padding: 5px;
+    color: #fff;
+    line-height: 43px;
 }
 .tieude_r{
 	width:auto;
@@ -232,7 +232,7 @@ html{
 	background: #bfbfff;
 }
 .content_right{
-	width:71%;
+	width:77%;
 	height:auto;
 	float:right;
 	padding: 0 2px;
@@ -249,7 +249,7 @@ html{
 	margin:auto;
 }
 .product li{
-	width:217px;
+	width:240px;
 	height:340px;
 	text-align:center;
 	padding-top:5px;
@@ -266,6 +266,7 @@ html{
 	padding-top:2px;
 	color:#00008f;
 	font-size:18px;
+	margin: 10px 0px;
 }
 .footer{
 	width:100%;
@@ -293,15 +294,12 @@ html{
 /* chi tiet san pham*/
 .box_chitietsp{
 	width:98%;
-	height:300px;
-	
-	margin:2px;
-	
+	height:300px;	
+	margin:2px;	
 }
 .box_hinhanh{
 	width:35%;
-	height:300px;
-	
+	height:300px;	
 	float:left;
 }
 .hinhanhphongto{
@@ -316,7 +314,6 @@ html{
 	margin-left:5px;
 	border:1px solid #CCC;
 }
-
 
 .box_info{
 	width:64%;
@@ -339,16 +336,13 @@ html{
 	border:1px solid #000;
 	border-radius:25px;
 	margin:10px;
-	margin-top:40px;
-	
+	margin-top:40px;	
 }
 .button_dathang p{
 	font-size:20px;
-	font-weight:bold;
-	
+	font-weight:bold;	
 	text-align:center;
-	line-height:40px;
-		
+	line-height:40px;		
 }
 .button_dathang  a{
 	color:#0C9;
@@ -360,8 +354,7 @@ html{
 }
 .sanphamlienquan{
 	width:100%;
-	height:250px;
-	
+	height:250px;	
 }
 .sanphamlienquan ul {
 	width:auto;
@@ -370,8 +363,7 @@ html{
 }
 .sanphamlienquan ul li{
 	width:215px;
-	height:auto;
-	
+	height:auto;	
 	text-align:center;
 	margin:8px;
 	float:left;
@@ -395,9 +387,8 @@ html{
 }
 /*Gio hang*/
 .box_giohang{
-	width:98%;
-	height:auto;
-		
+	width:100%;
+	height:auto;		
 	margin:0px;
 }
 .box_giohang tr td{
@@ -424,7 +415,7 @@ html{
 .control p{
 	font-size:18px;
 	color:skyblue;
-	margin:10px;
+	margin:15px;
 	float:left;
 	color:blue;
 	text-decoration:none;
@@ -446,9 +437,12 @@ html{
 	color:#0d0dcf;
 	margin:2px;
 }
+.dangky{
+	width: 100%;
+}
 .dangky tr td{
 	padding:5px;
-	width: 5%;
+	width: 10%;
 }
 .dangky input{
 	width:99%;

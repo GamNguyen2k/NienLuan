@@ -33,28 +33,28 @@
   <form action="" method="post" enctype="multipart/form-data">
     <table width="100%" border="1" style="border-collapse:collapse;">
       <tr>
-        <td >Họ tên người mua <strong style="color:red;"> (*)</strong></td>
-        <td ><input type="text" name="hoten" size="50" required="required"> </td>
+        <td><h3>  Họ tên người mua <strong style="color:red;"> (*)</strong> </h3></td>
+        <td><input type="text" name="hoten" size="50" required="required"> </td>
       </tr>
       <tr>
-        <td>Địa chỉ Email <strong style="color:red;"> (*)</strong></td>
+        <td><h3>  Địa chỉ Email <strong style="color:red;"> (*)</strong></h3</td>
         <td><input type="text" name="email" size="50" required="required"></td>
       </tr>
       <tr>
-        <td>Mật khẩu  <strong style="color:red;"> (*)</strong></td>
+        <td><h3>  Mật khẩu  <strong style="color:red;"> (*)</strong></h3></td>
         <td><input type="password" name="pass" size="50" required="required"></td>
       </tr>
       <tr>
-        <td>Điện thoại <strong style="color:red;"> (*)</strong></td>
+        <td><h3>  Điện thoại <strong style="color:red;"> (*)</strong></h3></td>
         <td><input type="text" name="dienthoai" size="50" required="required"></td>
       </tr>
       <tr>
-        <td>Địa chỉ nhận hàng <strong style="color:red;"> (*)</strong></td>
+        <td><h3>  Địa chỉ nhận hàng <strong style="color:red;"> (*)</strong></h3></td>
       <td><input type="text" name="diachi" size="50" required="required"></td>
       </tr>
       <tr>
         <td colspan="2">
-          <p><input type="submit" name="gui" value="Đăng ký" /></p>              
+          <p><input type="submit" name="gui" value="Đăng ký" style="font-size:20px;" /></p>              
         </td>
       </tr>
     </table>

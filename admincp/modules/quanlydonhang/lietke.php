@@ -17,6 +17,7 @@
   </tr>
   <?php
   $i=0;
+  $tongtien = 0;
   while($row=mysql_fetch_array($query_lietkedh)){
     $i++;
   ?>

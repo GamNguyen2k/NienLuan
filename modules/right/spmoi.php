@@ -30,8 +30,8 @@
 		?>
 			<li>
 				<a href="?quanly=chitietsp&idloaisp=<?php echo $dong_moinhat['loaisp'] ?>&id=<?php echo $dong_moinhat['idsanpham'] ?>">
-					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_moinhat['hinhanh'] ?>" width="150" height="180" />
-					<p style="color: #00008f"><?php echo $dong_moinhat['tensp'] ?></p>
+					<img src="admincp/modules/quanlysanpham/uploads/<?php echo $dong_moinhat['hinhanh'] ?>" width="150" height="200" />
+					<p><?php echo $dong_moinhat['tensp'] ?></p>
 					<p style="color:red; border:1px solid #d9d9d9; width:150px;height:30px; line-height:30px;margin-left:35px;
 							margin-bottom:5px;"><?php echo number_format($dong_moinhat['giadexuat']).' '.'VNĐ'?></p>                                                    	
 					<p>Xem chi tiết</p>

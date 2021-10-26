@@ -1,7 +1,7 @@
 <h1 style="padding: 10px 0px;">CHI TIẾT ĐƠN HÀNG</h1>
 
 <?php
-    $code = $_GET['code'];
+  $code = $_GET['code'];
 	$sql_lietkedh="select * from cart_detail,sanpham where cart_detail.product_id=sanpham.idsanpham and
     cart_detail.cart_id='".$code."' order by cart_detail.cart_id desc ";
 	$query_lietkedh=mysql_query($sql_lietkedh);

@@ -31,16 +31,16 @@
   <form action="" method="post" enctype="multipart/form-data">
 	<table width="100%" border="1" style="border-collapse:collapse;">
 		<tr>
-			<td width="40%">Email : <strong style="color:red;"> (*)</strong></td>
+			<td width="40%"><h3>Email : <strong style="color:red;"> (*)</strong></h3></td>
 			<td width="60%"><input type="text" name="email" size="50" required="required"></td>
 		</tr>
 		<tr>
-			<td>Mật khẩu : <strong style="color:red;"> (*)</strong></td>
+			<td><h3>Mật khẩu : <strong style="color:red;"> (*)</strong></h3></td>
 			<td width="60%"><input type="password" name="pass" size="50" required="required"></td>
 		</tr>
 		<tr>
 			<td colspan="2">	
-				<p><input type="submit" name="dangnhap" value="Đăng nhập" /></p>	
+				<p><input type="submit" name="dangnhap" value="Đăng nhập" style="font-size:20px"/></p>	
 			</td>
 		</tr>
 	</table>

@@ -11,13 +11,13 @@
 		echo '<div class="box_giohang">';
 		echo '<table width="100%"; cellpadding="10"; border="1"; style="border-collapse:collapse; margin:5px; text-align:center;">';			
 			echo'  <tr>';
-			echo '<td>MÃ SP</td>';
-			echo'<td>Tên SP</td>';
-			echo'<td>Hình ảnh</td>';
-			echo'<td>Giá sp</td>';
-			echo'<td>SL</td>';
-			echo'<td>Tổng tiền</td>';
-			echo'<td>Quản lý</td>';
+			echo '<td><h3>Mã SP</h3></td>';
+			echo'<td><h3>Tên SP</h3></td>';
+			echo'<td><h3>Hình ảnh</h3></td>';
+			echo'<td><h3>Giá sp</h3></td>';
+			echo'<td><h3>SL</h3></td>';
+			echo'<td><h3>Tổng tiền</h3></td>';
+			echo'<td><h3>Quản lý</h3></td>';
 			echo'</tr>';
 			$thanhtien=0;
 			foreach($_SESSION['product'] as $cart_item){
@@ -53,10 +53,13 @@
 				echo'</tr>';			
 			}
 			echo '<tr>	
-				<td colspan="6">
-					<a href="update_cart.php?xoatoanbo=1"  style="text-decoration:none;" >Xóa toàn bộ</a>	
+				<td colspan="5">
+					<a href="update_cart.php?xoatoanbo=1"  style="text-decoration:none; font-size:20px;" >Xóa toàn bộ</a>	
 				</td>								
-				<td>Thành tiền : '.number_format($thanhtien).'VNĐ'.'</td>
+				<td  colspan="5">
+					<h3>Thành tiền :</h3>
+					<h2 style="color:red;">'.number_format($thanhtien).'VNĐ'.'</h2>
+				</td>
 			</tr>';			
 		}
 		else{	
@@ -72,8 +75,8 @@
         <?php
 			if(isset($_SESSION['dangnhap'])&&isset($_SESSION['product'])){
 		?>
-            	<p style="float:right; background:#FF0;text-decoration:none;">
-					<a href="thanhtoan.php" style="color:#000;margin:5px;">Thanh toán</a>
+            	<p style="float:right; background:#FF0;text-decoration:none;border-radius: 50px;">
+					<a href="thanhtoan.php" style="color:#000;margin:22px;font-size: 25px;font-weight: 700;">Thanh toán</a>
 				</p>
 		<?php
 			}
